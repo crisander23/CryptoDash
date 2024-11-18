@@ -141,9 +141,13 @@ const CryptoDashboard: React.FC = () => {
         backgroundPosition: 'center'
       }}
     >
-   <div className="absolute top-4 left-4 z-50 font-web3 text-4xl text-white font-bold">
-  CryptoDash 
-</div>
+      <div className="absolute top-4 left-4 z-50 font-web3 text-4xl text-white font-bold">
+        CryptoDash 
+      </div>
+
+      <div className="absolute top-16 left-4 z-50 font-web3 text-xs text-white">
+        © crisander.dev
+      </div>
 
       {snackbarMessage && snackbarLogo && (
         <SnackbarComponent
