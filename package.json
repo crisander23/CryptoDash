@@ -39,7 +39,7 @@
     "predeploy": "npm run build", 
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://CrisanderDotDev.github.io/crypto-dash",  
+  "homepage": "https://crisander23.github.io/crypto-dash",  
   "eslintConfig": {
     "extends": [
       "react-app",
